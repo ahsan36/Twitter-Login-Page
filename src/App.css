@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+ 
+body {
+  background: rgba(42, 53, 64, 0.966);
+}
+ 
+.logo-box {
+  background: black;
+  padding: 30px 120px;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+}
+ 
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+.logo-box h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+ 
+.logo-box button img {
+  width: 18px;
+  margin-right: 10px;
+}
+ 
+.logo-box button {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  border-radius: 30px;
+  background: white;
+  border: 1px solid #999;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.logo-box .apple {
+  font-weight: bold;
+}
+ 
+.logo-box hr {
+  border: 0;
+  height: 1px;
+  background: #c2c2c2;
+  margin: 5px;
+}
+ 
+.logo-box span {
+  display: block;
+  width: 25px;
+  margin: auto;
+  color: white;
+  background: black;
+  font-size: 18px;
+  margin-top: -16px;
+}
+
+.logo-box form {
+  padding-top: 15px;
+}
+
+.logo-box input {
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #999;
+  outline: 0;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+::placeholder {
+  font-weight: 500;
+  color: #71767B;
+}
+ 
+.logo-box form button {
+  background: white;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.logo-box .forget {
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+}
+ 
+.logo-box p {
+  font-size: 14px;
+  color: #71767B;
+  margin: 40px 0 50px;
+}
+ 
+.logo-box p a {
+  text-decoration: none;
+  color: #359cf0;
+}  
